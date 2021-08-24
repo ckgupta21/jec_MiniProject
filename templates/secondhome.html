@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>Crime Rate Predictor For The Age Group 30 To 50 Years</title>
+	<style type="text/css">
+		.first{
+			padding-left: 400px;
+			padding-top: 50px;
+		}
+		h3{
+			text-align: center;
+		}
+		body{
+			background-image: url("https://image.freepik.com/free-photo/gray-color-cotton-texture-surface-background_74190-13729.jpg");
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="/">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+</nav>
+	<h3>WELCOME TO THE CRIME RATE BROWSING PORTAL</h3>
+	<div class="first">
+		
+		<form action="/result_above_30" method="POST">
+			<label for="year">Year</label>
+			<input type="text" id="year" name="year">
+			<br>
+			<br>
+			<label for="state">State</label>
+			<select id="state" name="state">
+				<option value="0">Andaman & Nicobar Islands</option>
+				<option value="1">Andhra Pradesh</option>
+				<option value="2">Arunachal Pradesh</option>
+				<option value="3">Assam</option>
+				<option value="4">Bihar</option>
+				<option value="5">Chandigarh</option>
+				<option value="6">Chhattisgarh</option>
+				<option value="7">Delhi</option>
+				<option value="8">Goa</option>
+				<option value="9">Gujarat</option>
+				<option value="10">Haryana</option>
+				<option value="11">Himachal Pradesh</option>
+				<option value="12">Jammu & Kashmir</option>
+				<option value="13">Jharkhand</option>
+				<option value="14">Karnataka</option>
+				<option value="15">Kerala</option>
+				<option value="16">Lakshadweep</option>
+				<option value="17">Madhya Pradesh</option>
+				<option value="18">Maharashtra</option>
+				<option value="19">Manipur</option>
+				<option value="20">Meghalaya</option>
+				<option value="21">Mizoram</option>
+				<option value="22">Nagaland</option>
+				<option value="23">Odisha</option>
+				<option value="24">Puducherry</option>
+				<option value="25">Punjab</option>
+				<option value="26">Rajasthan</option>
+				<option value="27">Sikkim</option>
+				<option value="28">Tamil Nadu</option>
+				<option value="29">Tripura</option>
+				<option value="30">Uttar Pradesh</option>
+				<option value="31">Uttarakhand</option>
+				<option value="32">West Bengal</option>
+			</select>
+			<br>
+			<br>
+			<label for="gender">Gender</label>
+			<select id="gender" name="gender">
+				<option value="0">Female Victims</option>
+				<option value="1">Male Victims</option>
+				<option value="2">Total Victims</option>
+			</select>
+			<br>
+			<br>
+			<input type="submit" value="Browse">
+		</form>
+	
+	</div>
+	<br>
+	
+</div>
+
+</body>
+</html>
